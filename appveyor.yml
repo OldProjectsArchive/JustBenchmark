@@ -6,8 +6,4 @@ before_build:
 build:
   project: JustBenchmark.sln
   verbosity: minimal
-test_script:
-- cmd: >-
-    cd JustBenchmark.Tests
-
-    dotnet test
+test: off
