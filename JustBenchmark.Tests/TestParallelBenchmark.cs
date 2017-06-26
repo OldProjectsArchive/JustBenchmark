@@ -23,9 +23,9 @@ namespace JustBenchmark.Tests {
 			var benchmark = new JustBenchmark(new IBenchmarkSubscribers[0]);
 			var obj = new BenchmarkClass();
 			benchmark.Run(obj);
-			Assert.Equal(obj.ExecuteCount, 1000);
+			Assert.Equal(1000, obj.ExecuteCount);
 			benchmark.Run(obj);
-			Assert.Equal(obj.ExecuteCount, 2000);
+			Assert.Equal(2000, obj.ExecuteCount);
 		}
 	}
 }
