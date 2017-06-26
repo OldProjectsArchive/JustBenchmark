@@ -1,0 +1,13 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+platform: Any CPU
+before_build:
+- cmd: dotnet restore
+build:
+  project: JustBenchmark.sln
+  verbosity: minimal
+test_script:
+- cmd: >-
+    cd JustBenchmark.Tests
+
+    dotnet test

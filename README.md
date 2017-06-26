@@ -1,4 +1,4 @@
-# JustBenchmark
+# JustBenchmark [![Build status](https://ci.appveyor.com/api/projects/status/vgf2oomqw307i44m?svg=true)](https://ci.appveyor.com/project/303248153/justbenchmark) [![NuGet](https://img.shields.io/nuget/vpre/JustBenchmark.svg)](http://www.nuget.org/packages/JustBenchmark)
 
 A very simple benchmark framework works on .Net Framework and .Net Core.
 

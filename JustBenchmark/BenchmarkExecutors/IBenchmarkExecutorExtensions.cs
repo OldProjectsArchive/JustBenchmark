@@ -9,9 +9,6 @@ namespace JustBenchmark.BenchmarkExecutors {
 		/// <summary>
 		/// Get benchmark result with elapsed time and GC collection counts
 		/// </summary>
-		/// <param name="method"></param>
-		/// <param name="action"></param>
-		/// <returns></returns>
 		public static BenchmarkResult GenericExecute(
 			this IBenchmarkExecutor executor, MethodInfo method, Action action) {
 			GC.Collect();
