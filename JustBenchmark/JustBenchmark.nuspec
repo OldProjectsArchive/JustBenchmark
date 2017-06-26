@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>JustBenchmark</id>
+		<version>0.9.0</version>
+		<title>JustBenchmark</title>
+		<authors>303248153</authors>
+		<owners>303248153</owners>
+		<description>A very simple benchmark framework works on .Net Framework and .Net Core.</description>
+		<summary>A very simple benchmark framework works on .Net Framework and .Net Core.</summary>
+		<language>en-US</language>
+		<projectUrl>https://github.com/OldMansClub/JustBenchmark</projectUrl>
+		<licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<tags></tags>
+		<dependencies>
+			<group targetFramework="net461">
+				<dependency id="System.Threading.Thread" version="4.3.0" />
+			</group>
+			<group targetFramework="netstandard1.6">
+				<dependency id="System.Threading.Thread" version="4.3.0" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\LICENSE.txt" target="." />
+		<file src=".\bin\Release\net461\JustBenchmark.dll" target="lib\net461" />
+		<file src=".\bin\Release\net461\JustBenchmark.xml" target="lib\net461" />
+		<file src=".\bin\Release\net461\JustBenchmark.pdb" target="lib\net461" />
+		<file src=".\bin\Release\netstandard1.6\JustBenchmark.dll" target="lib\netstandard1.6" />
+		<file src=".\bin\Release\netstandard1.6\JustBenchmark.xml" target="lib\netstandard1.6" />
+		<file src=".\bin\Release\netstandard1.6\JustBenchmark.pdb" target="lib\netstandard1.6" />
+	</files>
+</package>
